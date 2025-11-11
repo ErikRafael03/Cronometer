@@ -25,13 +25,14 @@ main h1 {
   font-size: 90px;
   color: #000000b0;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 main p {
   font-size: 25px;
   margin: 0px 18%;
   text-align: center;
-  color: #181818a1;
+  color: #000000ad;
 }
 
 .content {
@@ -40,6 +41,7 @@ main p {
   padding: 8% 35px 8% 35px;
   border-radius: 15px;
   overflow: hidden;
+  width: 100%;
 }
 
 .btn1 {
