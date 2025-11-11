@@ -37,5 +37,5 @@ Este projeto foi desenvolvido com o propósito de **praticar e demonstrar habili
 
 ## 🔗 Acesse o projeto
 
-👉 [Visualizar Cronometer](https://seuusuario.github.io/cronometer/)  
+👉 [Visualizar Cronometer](https://erikrafael03.github.io/Cronometer/)  
 
