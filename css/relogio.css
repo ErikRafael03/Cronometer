@@ -1,0 +1,15 @@
+.clock {
+    padding: 1% 0px 2% 0px;
+}
+.clock time {
+    font-size: 150px;
+    gap: 20px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: #000000d8;
+}
+
+.clock time:not(:last-child):after {
+    content: " : ";
+    color: #0000007e;
+}

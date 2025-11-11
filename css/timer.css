@@ -1,0 +1,45 @@
+.input-timer {
+    margin-bottom: 15px;
+}
+
+.input-timer input {
+    width: 10%;
+    padding: 5px 1%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.input-timer button {
+    padding: 5px 1%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #ffffffa4;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.input-timer button:hover {
+    background-color: #dadadaa4;
+}
+
+.btn-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn-timer button {
+    padding: 10px 5%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #ffffffa4;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-timer button:hover {
+    background-color: #dadadaa4;
+}

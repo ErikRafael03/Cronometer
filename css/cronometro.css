@@ -1,0 +1,17 @@
+.controls{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.controls button{
+    padding: 10px 5%;
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    background-color: #ffffffa4;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.controls button:hover{
+    background-color: #dadadaa4;
+}

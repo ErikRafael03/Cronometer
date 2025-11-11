@@ -1,0 +1,148 @@
+@media screen and (max-width: 1140px) {
+    main {
+        padding: 0% 2% 10% 2%;
+    }
+
+    .content {
+        padding: 8% 0px;
+    }
+
+    .title h1 {
+        font-size: 80px;
+    }
+
+    main p {
+        font-size: 20px;
+        margin: 0px 15%;
+        color: #2b2b2b;
+    }
+
+    .btn1 {
+        font-size: 18px;
+    }
+
+    .opcao {
+        font-size: 15px;
+    }
+
+    .clock time {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .clock {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clock time:not(:last-child):after {
+        content: "";
+    }
+}
+
+@media screen and (max-width: 550px) {
+    main {
+        padding: 0% 1%;
+    }
+
+    .title h1 {
+        font-size: 60px;
+    }
+
+    section p {
+        font-size: 18px;
+        margin: 0px 2%;
+    }
+
+    .btn1 {
+        font-size: 18px;
+    }
+
+    .opcao {
+        font-size: 15px;
+    }
+
+    #opcoes {
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #opcoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opcao {
+        width: 80%;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .title h1 {
+        font-size: 50px;
+    }
+
+    section p {
+        font-size: 16px;
+        margin: 0px 2%;
+    }
+
+    .clock time {
+        font-size: 85px;
+    }
+
+    .title-content {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title h1 {
+        font-size: 40px;
+    }
+
+    section p {
+        font-size: 14px;
+        margin: 0px 2%;
+    }
+
+    .btn1 {
+        font-size: 15px;
+    }
+
+    .opcao {
+        font-size: 14px;
+    }
+
+    .clock {
+        padding: 1% 0px 2% 0px;
+    }
+
+    .clock time {
+        font-size: 60px;
+    }
+
+    .title-content {
+        font-size: 25px;
+    }
+
+    .controls button {
+        font-size: 15px;
+    }
+
+    .btn-timer button {
+        font-size: 15px;
+    }
+
+    #pomodoro-status {
+        font-size: 20px;
+    }
+
+    .sub-icon i {
+        font-size: 30px;
+    }
+}
